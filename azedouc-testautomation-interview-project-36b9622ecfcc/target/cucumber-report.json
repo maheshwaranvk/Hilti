@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-03T07:10:54.626Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5357894600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hilti.ta.steps.BackgroundSteps.beforeUITests()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify submittal generation process",
+        "description": "",
+        "id": "submittals-generation;verify-submittal-generation-process;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11448468100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens Hilti website for country US",
+            "match": {
+              "arguments": [
+                {
+                  "val": "US",
+                  "offset": 37
+                }
+              ],
+              "location": "com.hilti.ta.steps.GeneralSteps.userOpensHiltiWebsite(com.hilti.ta.utils.Country)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9338501000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Firestop submittal generator page",
+            "match": {
+              "location": "com.hilti.ta.steps.ProductNavigationSteps.user_navigates_to_Firestop_submittal_generator_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1190912400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User starts submittal generation process",
+            "match": {
+              "location": "com.hilti.ta.steps.GeneralSteps.user_starts_submittal_generation_process()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460518000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User selects Firestop systems \u00273\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00273\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "com.hilti.ta.steps.GeneralSteps.user_selects_Firestop_systems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1188376300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User creates submittal",
+            "match": {
+              "location": "com.hilti.ta.steps.GeneralSteps.user_creates_submittal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 756402700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User deselects Firestop products \u00271\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00271\u0027",
+                  "offset": 33
+                }
+              ],
+              "location": "com.hilti.ta.steps.GeneralSteps.user_deselects_Firestop_products(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 358584600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects submittals options \u0027No cover page\u0027 \u0027No\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027No cover page\u0027",
+                  "offset": 32
+                },
+                {
+                  "val": "\u0027No\u0027",
+                  "offset": 48
+                }
+              ],
+              "location": "com.hilti.ta.steps.GeneralSteps.user_selects_submittals_options(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2810156500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User finalizes submittal generation process",
+            "match": {
+              "location": "com.hilti.ta.steps.GeneralSteps.user_finalizes_submittal_generation_process()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322795200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User can download the generated document",
+            "match": {
+              "location": "com.hilti.ta.steps.GeneralSteps.user_can_download_the_generated_document()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Submittals generation",
+    "description": "",
+    "id": "submittals-generation",
+    "keyword": "Feature",
+    "uri": "file:target/test-classes/features/fireStopSubmittals.feature",
+    "tags": []
+  }
+]

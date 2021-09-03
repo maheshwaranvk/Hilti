@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.478">
+    <testcase classname="Submittals generation" name="Verify submittal generation process" time="33.242">
+        <system-out><![CDATA[Given User opens Hilti website for country US...............................passed
+When User navigates to Firestop submittal generator page....................passed
+And User starts submittal generation process................................passed
+And User selects Firestop systems '3'.......................................passed
+And User creates submittal..................................................passed
+And User deselects Firestop products '1'....................................passed
+And User selects submittals options 'No cover page' 'No'....................passed
+And User finalizes submittal generation process.............................passed
+Then User can download the generated document...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
